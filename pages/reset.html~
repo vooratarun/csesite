@@ -1,0 +1,32 @@
+<td>
+	<div id="reset_titlebar">CSE account - Reset your password<div id="reset-signin">Sign in</div></div>
+	<div id="forget_title">Get help with a forgotten password and other problems signing in</div>
+	<table id="pro_list">
+		<tr>
+			<td colspan="2" style="padding-bottom: 12px;">What problem are you having signing in?</td>
+		</tr>
+		<tr>
+			<td id="forgot_passwd" class="prolistimg" onclick="chgimg('forgot_passwd')">
+				<img src='images/radio.png' />
+			</td>
+			<td>
+				<span id="problem" onclick="chgimg('forgot_passwd')">I forgot my password</span>
+			</td>
+		</tr>
+		<tr>
+			<td id="cant_access" class="prolistimg"  onclick="chgimg('cant_access')"><img src='images/radio.png' /></td><td><span id="problem" onclick="chgimg('cant_access')">I know my password and CSE account, but can't sign in</span></td>
+		</tr>
+		<tr id="cant_access_opt" class="reset-options">
+			<td></td>
+			<td>
+				<ol>
+					<li>Be sure that Caps Lock isn't on (passwords are case sensitive)</li>
+					<li>If you still can't sign in, reset your password.</li>
+				</ol>
+			</td>
+		</tr>
+		<tr>
+			<td id="account_hacked" class="prolistimg" onclick="chgimg('account_hacked')"><img src='images/radio.png' /></td><td><span id="problem" onclick="chgimg('account_hacked')">I think someone else is using my CSE account</span></td>
+		</tr>
+	</table>
+</td>

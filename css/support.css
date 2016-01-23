@@ -1,0 +1,242 @@
+#support-content
+{
+	display: inline-block;
+	width: 100%;
+	height: 45%;
+	text-align: left;
+	border-radius: 3px;
+}
+#dev-word
+{
+	position: absolute;
+	margin-bottom: 1em;
+	top: 15.5em;
+	padding: 25px;
+}
+#support-body
+{
+	text-align: center;
+	margin: 0 0 4em 4em;
+}
+.product-items
+{
+	width: 12%;
+	height: 98;
+	float: left;
+	margin: 1em;
+	margin-bottom: 10em;
+	cursor: pointer;
+}
+#library
+{
+	~background: -moz-linear-gradient(top, #1e5799 20%, #7db9e8 100%);
+	~background: -webkit-linear-gradient(top, #1e5799 20%, #7db9e8 100%);
+	background-color: #00388f;
+	border: 1px solid #2366cf;
+}
+#drive
+{
+	~background: -moz-linear-gradient(top, #a50a52 20%, #f42e8b 100%);
+	~background: -webkit-linear-gradient(top, #a50a52 20%, #f42e8b 100%);
+	background-color: #c10c60;
+	border: 1px solid #f42e8b;
+}
+#forums
+{
+	~background: -moz-linear-gradient(top, #339429 20%, #92c017 100%);
+	~background: -webkit-linear-gradient(top, #339429 20%, #92c017 100%);
+	background-color: #339429;
+	border: 1px solid #92c017;
+}
+#innovation
+{
+	~background: -moz-linear-gradient(top, #ed8f08 20%, #f1ba6c 100%);
+	~background: -webkit-linear-gradient(top, #ed8f08 20%, #f1ba6c 100%);
+	background-color: #ed8f08;
+	border: 1px solid #f1cf0b;
+}
+#csecareers
+{
+	~background: -moz-linear-gradient(top, #970def 20%, #c19af1 100%);
+	~background: -webkit-linear-gradient(top, #970def 20%, #c19af1 100%);
+	background-color: #970def;
+	border: 1px solid #c19af1;
+}
+#webmasters
+{
+	~background: -moz-linear-gradient(top, #ea1217 20%, #e0796a 100%);
+	~background: -webkit-linear-gradient(top, #ea1217 20%, #e0796a 100%);
+	background-color: #ea1217;
+	border: 1px solid #e0412c;
+}
+.letter
+{
+	font-family: 'title2';
+	color: white;
+	font-size: 50px;
+}
+.letter-title
+{
+	font-size: 16px;
+	color: white;
+}
+#product-desc
+{
+	margin: 5px;
+	border-top: 1px solid white;
+	padding-top: 5px;
+	font-family: Arial;
+	font-size: 11px;
+	color: white;
+	font-style: italic;
+	border-bottom: 1px solid white;
+	padding-bottom: 5px;
+}
+#writetous
+{
+	color: white;
+	font-weight: bold;
+	font-family: Arial;
+	font-size: 11px;
+	padding-top: 3px;
+}
+#writetous:hover
+{
+	text-decoration: underline;
+}
+.options
+{
+	display: none;
+}
+.fieldlabel
+{
+	color:rgb(144,88,10);
+	font-size: 12px;
+}
+.reds
+{
+	padding: 5px;
+	margin: 5px;
+	width: 100%;
+	color: #214b7e;
+	font-size: 13px;
+	border: 1px solid #d21010;
+	box-shadow: 0px 0px 1px #ef9797;
+}
+#dev-word-title
+{
+	font-size: 22px;
+	color: #194070;
+	margin-bottom: 0.2em;
+}
+#dev-word-body
+{
+	font-size: 15px;
+	padding: 10px;
+	padding-left: 20px;
+	color: rgb(85,85,85);
+}
+#dev-info
+{
+	text-align: center;
+}
+#problem-post
+{
+	background: rgb(0,109,204);
+	background-image: linear-gradient(to bottom,#0088CC,#0044CC);
+	color: white;
+	border: none;
+	float: right;
+	border-radius: 2px;
+	padding: 5px 10px;
+	display: inline-block;
+	font-weight: bold;
+	font-size: 12px;
+	margin-right: 3em;
+	cursor: pointer;
+}
+#support-header
+{
+	position: relative;
+	top: 0%;
+	left: 0%;
+	width: auto;
+	height: 5%;
+	background: -moz-linear-gradient(top, #e3e5fe, white);
+	background: -webkit-linear-gradient(top, #e3e5fe, white);
+	padding: 1em;
+	font-family: calibri,ubuntu,sans;
+	font-size: 22px;
+	color: #194070;
+	cursor: pointer;
+}
+#contactus
+{
+	position: fixed;
+	top: 20%;
+	left: 20%;
+	width: 60%;
+	z-index: 11;
+	padding: 10px;
+	display: none;
+	background-color: #fafafa;
+	!border-radius: 5px;
+	box-shadow: 0px 0px 5px -2px silver;
+}
+#writetous-ui
+{
+	height: 50%;
+	z-index: 11;
+}
+#writetous-ui table
+{
+	width: 90%;
+}
+#writetous-ui .head-input
+{
+	width: 400px;
+	padding: 3px;
+	border: 1px solid #d7d8d9;
+	color: #214b7e;
+	font-size: 14px;
+}
+.inputs
+{
+	border: 1px solid #d7d8d9;
+	margin: 5px;
+	padding: 5px;
+	width: 100%;
+	min-height: 75px;
+	height: auto;
+	font-size: 13px;
+}
+.head-input:focus,.inputs:focus
+{
+	border: 1px solid #26a0da;
+	box-shadow: 0px 0px 1px #b4daec;
+}
+#required-footer
+{
+	font-family: Arial;
+	font-size: 12px;
+	margin: 5px;
+	text-align: center;
+	padding: 5px;
+	color: #5c5d67;
+	float: left;
+	margin-left: 2%;
+	font-weight: bold;
+}
+#close_contact
+{
+	cursor: pointer;
+	float: right;
+	text-align: right;
+	color: #686868;
+	padding: 0 10px;
+	font-weight: bold;
+}
+#close_contact:hover
+{
+	color: #26a0da;
+}

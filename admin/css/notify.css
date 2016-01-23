@@ -1,0 +1,118 @@
+.table
+{
+	width: 100%;
+	max-width: 100%;
+  	border-collapse: collapse;
+	border-spacing: 0;
+	margin-bottom: 2%;
+}
+.table th,.table td
+{
+	padding: 10px;
+	line-height: 18px;
+	text-align: left;
+	vertical-align: top;
+	border: 1px solid #ddd;
+}
+.table thead th
+{
+	vertical-align: bottom;
+}
+.pagination
+{
+  	clear:both;
+  	left: 35%;
+  	position:relative;
+  	font-size:12px;
+  	line-height:13px;
+  	margin-bottom: 20px;
+  	float: left;
+}
+.pagination span ,.pagination a
+{
+  	display:block;
+  	float:left;
+  	margin: 2px 10px 2px 0;
+  	padding: 8px 10px;
+  	text-decoration:none;
+  	width:auto;
+  	color:#7d7d7d; 
+  	border: 1px solid #dedede;
+}
+.pagination span
+{
+	background-color: #f6f6f6;
+}
+.pagination a:hover
+{
+ 	cursor: pointer;
+  	color:#fff;
+  	background: #0088C8;
+}
+.pagination .current
+{
+	cursor: pointer;
+  	background: #0088C8;
+  	color:#fff;
+}
+#top_bar
+{
+	padding: 5px 10px;
+}
+.top_list
+{
+	display: inline-block;
+	vertical-align: middle;
+	padding: 0px 10px;
+	cursor: pointer;
+	border: none;
+	background: none;
+}
+#notice_body
+{
+	overflow-y: scroll;
+}
+.note_title
+{
+	color: #0088C8;
+	cursor: pointer;
+}
+#notice_viewer
+{
+	position: fixed;
+	width: 70%;
+	height: 80%;
+	top: 10%;
+	left: 15%;
+	border: 1px solid silver;
+	background-color: white;
+	display: none;
+	z-index: 121;
+}
+#nhint
+{
+	padding: 10px;
+	font-size: 24px;
+	border-bottom: 1px dotted rgba(0,0,0,0.1);
+	height: 8%;
+	background-color: #e0e6f6;
+}
+#ntit
+{
+	text-align: center;
+	font-weight: bold;
+	font-size: 18px;
+	text-decoration: underline;
+}
+#ntime
+{
+	text-align: right;
+	padding: 5px;
+	font-size: 14px;
+}
+#nbody
+{
+	padding: 15px;
+	height: 70%;
+	overflow-y: scroll; 
+}

@@ -1,0 +1,115 @@
+#slide-container
+{
+	width: 52%;
+	margin: 30px auto;
+	box-shadow: 0px 0px 1px silver;
+	height: 400px;
+	position: relative;
+	background-image: url("../images/rgu_wmark.png");
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+.slide
+{
+	opacity:1;
+	width:100px;
+	height:100px;
+	padding:10px;
+	!background:#eee;
+	border-radius:10px;
+   box-shadow:1px 1px 10px 1px silver;
+	position: absolute;
+	cursor:pointer;
+	text-align: center;
+}
+a:hover
+{
+	text-decoration:none;
+}
+.slide:hover
+{
+   box-shadow:0 0px 10px 10px #f6f6f6;
+}
+#h-one
+{
+	background: -moz-linear-gradient(top, #1e5799 20%, #7db9e8 100%);
+	background: -webkit-linear-gradient(top, #1e5799 20%, #7db9e8 100%);
+	z-index:1;
+	top:30px;
+	left:50px;
+	transform:rotate(-20deg);
+	-o-transform:rotate(-20deg);
+	-moz-transform:rotate(-20deg);
+	-webkit-transform:rotate(-20deg);
+}
+
+#h-two{
+	background: -moz-linear-gradient(top, #ba2c47 20%, #e4758a 100%);
+	background: -webkit-linear-gradient(top, #ba2c47 20%, #e4758a 100%);
+	z-index:2;
+	top:140px;
+	left:50px;
+	transform:rotate(10deg);
+	-o-transform:rotate(10deg);
+	-moz-transform:rotate(10deg);
+	-webkit-transform:rotate(10deg);
+}
+#h-three{
+	background: -moz-linear-gradient(top, #79700e 20%, #cdc460 100%);
+	background: -webkit-linear-gradient(top, #79700e 20%, #cdc460 100%);
+	z-index:3;
+	top:20px;
+	left:150px;
+	transform:rotate(30deg);
+	-o-transform:rotate(30deg);
+	-moz-transform:rotate(30deg);
+	-webkit-transform:rotate(30deg);
+}
+#h-four
+{
+	background: -moz-linear-gradient(top, #ed8f08 20%, #f1ba6c 100%);
+	background: -webkit-linear-gradient(top, #ed8f08 20%, #f1ba6c 100%);
+	z-index:4;
+	top:240px;
+	left:100px;
+	transform:rotate(-40deg);
+	-o-transform:rotate(-40deg);
+	-moz-transform:rotate(-40deg);
+	-webkit-transform:rotate(-40deg);
+}
+#h-five
+{
+	background: -moz-linear-gradient(top, #970def 20%, #c19af1 100%);
+	background: -webkit-linear-gradient(top, #970def 20%, #c19af1 100%);
+	z-index:5;
+	top:150px;
+	left:350px;
+	transform:rotate(-35deg);
+	-o-transform:rotate(-35deg);
+	-moz-transform:rotate(-35deg);
+	-webkit-transform:rotate(-35deg);
+}
+#h-six
+{
+	background: -moz-linear-gradient(top, #ea1217 20%, #e0796a 100%);
+	background: -webkit-linear-gradient(top, #ea1217 20%, #e0796a 100%);
+	z-index:6;
+	top:50px;
+	left:280px;
+	transform:rotate(-10deg);
+	-o-transform:rotate(-10deg);
+	-moz-transform:rotate(-10deg);
+	-webkit-transform:rotate(-10deg);
+}
+#h-seven
+{
+	background-image: -moz-linear-gradient(center top, #5FC159, #37A034);
+	background: -webkit-linear-gradient(top, #5FC159 20%, #37A034 100%);
+	z-index:7;
+	top:240px;
+	left:250px;
+	transform:rotate(30deg);
+	-o-transform:rotate(30deg);
+	-moz-transform:rotate(30deg);
+	-webkit-transform:rotate(30deg);
+}
